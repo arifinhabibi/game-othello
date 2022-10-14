@@ -17,6 +17,7 @@ body {
 }
 
 .score {
+    top: 3%;
     background-color: rgb(70, 105, 169);
     height: 60px;
     width: 400px;
@@ -94,4 +95,24 @@ body {
     width: 48px;
     border-radius: 100%;
     border: 1px solid #000;
+}
+
+
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    margin-bottom: 30px;
+    cursor: pointer;
+
 }
