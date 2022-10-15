@@ -116,3 +116,13 @@ body {
     cursor: pointer;
 
 }
+
+.screen {
+    transition: .3s;
+    opacity: 0;
+    pointer-events: none;
+}
+.screen.active {
+    opacity: 1;
+    pointer-events: unset;
+}
